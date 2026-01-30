@@ -9,7 +9,7 @@
 
 'use strict';
 
-const DATA_URL = './data/propuesta.json';
+const DATA_URL = 'propuesta.json';
 
 // Forzar periodo visible (presentación 2026)
 const FORCE_YEAR = 2026;
