@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "titulo": "Propuesta técnica y financiera — Programación de formación artística Casas Kiwa · Fundación San Antonio",
+    "subtitulo": "Escuela de educación artística Musicala",
+    "version": "v1.0 (App Web)",
+    "periodo": {
+      "inicio": "2025-03-02",
+      "fin": "2025-11-28",
+      "meses": 9
+    },
+    "areas": [
+      "Danza",
+      "Teatro",
+      "Dibujo y Artes Visuales"
+    ],
+    "ciclos": [
+      {
+        "id": "I",
+        "rango": "6–9"
+      },
+      {
+        "id": "II",
+        "rango": "9–11"
+      },
+      {
+        "id": "III",
+        "rango": "12–14"
+      },
+      {
+        "id": "IV",
+        "rango": "15–16"
+      }
+    ],
+    "centros": [
+      "Arroyo",
+      "Betania",
+      "Jerusalén",
+      "Lucero",
+      "Santo Domingo",
+      "Padre Misericordioso",
+      "Acapulco",
+      "San Juan de Dios",
+      "GMMMC"
+    ],
+    "nna_estimado": 750
+  },
+  "resumen_ejecutivo": [
+    "Musicala propone un programa de formación artística integral para NNA beneficiarios de los Centros Redes, enfocado en Danza, Teatro y Dibujo/Artes Visuales.",
+    "El modelo operativo incluye coordinación académica y administrativa, atención permanente y supervisión bimensual con control de calidad y planes de mejora.",
+    "La tarifa mensual global cubre docencia y operación complementaria (planeación, materiales, traslados, reuniones, informes, muestras y seguimiento en aplicativos con trazabilidad)."
+  ],
+  "metodologia": {
+    "nombre": "CREA",
+    "pilares": [
+      {
+        "nombre": "Concentración",
+        "descripcion": "Actividades cortas, variadas y sistemáticas que fortalecen hábitos, enfoque y disciplina."
+      },
+      {
+        "nombre": "Rapidez",
+        "descripcion": "Estructuras pedagógicas que aceleran el aprendizaje con resultados tempranos y materiales de apoyo."
+      },
+      {
+        "nombre": "Efectividad",
+        "descripcion": "Resultados medibles mediante muestras de proceso, evidencias y evaluación formativa continua."
+      },
+      {
+        "nombre": "Adaptación",
+        "descripcion": "Programas ajustados a niveles, ritmos e intereses; enfoque inclusivo por ciclos y contexto."
+      }
+    ],
+    "recursos": [
+      "Material didáctico y guías",
+      "Aplicativos de seguimiento (asistencia, evidencias, observaciones, reportes)",
+      "Muestras de proceso y cierre (clases abiertas, exposiciones, presentaciones)"
+    ],
+    "enfoques_transversales": [
+      {
+        "nombre": "Enfoque para NNA en contextos de vulnerabilidad",
+        "puntos": [
+          "Ambiente seguro y predecible: acuerdos claros, rutinas estables y contención emocional sin autoritarismo.",
+          "Pedagogía sensible al trauma: evitamos exposición innecesaria, cuidamos disparadores y priorizamos la dignidad.",
+          "Participación activa: los NNA co-crean reglas, roles y piezas artísticas; se fortalece agencia y pertenencia.",
+          "Aprendizaje por ciclos (I–IV): metas realistas por edad, andamiaje y trabajo colaborativo inter-edad cuando aplica."
+        ]
+      },
+      {
+        "nombre": "Arte como gestión emocional y habilidades para la vida",
+        "puntos": [
+          "Regulación emocional: respiración, pausas activas, calentamientos somáticos y 'check-in/check-out' breve por sesión.",
+          "Comunicación y convivencia: prácticas de escucha, turnos, acuerdos, reparación y reconocimiento entre pares.",
+          "Autoestima y sentido de logro: micro-metas, retroalimentación cálida + específica y evidencias visibles de progreso.",
+          "Creatividad con propósito: piezas que narran su territorio, identidad y sueños; enfoque restaurativo y comunitario."
+        ]
+      },
+      {
+        "nombre": "Metodologías activas (lúdicas y formativas)",
+        "puntos": [
+          "Juego serio: dinámicas con reglas simples, objetivos claros y cierre reflexivo (qué aprendí, qué sentí, qué mejoro).",
+          "Aprendizaje basado en proyectos: montajes, exposiciones y muestras con entregables por mes.",
+          "Trabajo cooperativo: roles rotativos (líder, apoyo, observador, encargado de materiales) para responsabilidad compartida.",
+          "Evaluación formativa: rúbricas simples por ciclo, bitácoras docentes y portafolios de evidencias (no solo notas)."
+        ]
+      }
+    ],
+    "protocolos_socioemocionales": [
+      "Rutina de inicio (3–5 min): saludo, norma del día, check-in emocional.",
+      "Rutina de cierre (3–5 min): logros, gratitud/ reconocimiento, check-out.",
+      "Manejo de situaciones: pausa, respiración, conversación breve, reenganche; escalamiento con líder si se requiere.",
+      "Registro de novedades: observación objetiva + acción tomada + seguimiento (en aplicativo)."
+    ]
+  },
+  "operacion": {
+    "modelo": "Tarifa mensual global",
+    "incluye": [
+      "Docencia programada por centro",
+      "Planeación y alistamiento pedagógico",
+      "Materiales y recursos didácticos",
+      "Traslados del equipo",
+      "Reuniones con líderes de centro",
+      "Informes mensuales y cierre",
+      "Muestras y presentaciones",
+      "Seguimiento en aplicativos con trazabilidad"
+    ],
+    "no_incluye": [
+      "Refrigerios o transporte de NNA (si aplica)",
+      "Alquiler de auditorios externos (si se requiere)",
+      "Dotaciones estructurales del centro (obras/adecuaciones mayores)"
+    ],
+    "horas": {
+      "semanales_por_centro": {
+        "Arroyo": 16,
+        "Betania": 8,
+        "Jerusalén": 24,
+        "Lucero": 16,
+        "Santo Domingo": 20,
+        "Padre Misericordioso": 16,
+        "Acapulco": 4,
+        "San Juan de Dios": 2,
+        "GMMMC": 12
+      },
+      "total_semanal_base": 168,
+      "mensuales_totales": {
+        "Marzo": 424,
+        "Abril": 358,
+        "Mayo": 448,
+        "Junio": 298,
+        "Julio": 400,
+        "Agosto": 406,
+        "Septiembre": 464,
+        "Octubre": 380,
+        "Noviembre": 388
+      }
+    },
+    "evaluacion_monitoreo": {
+      "instrumentos": [
+        "Observaciones en sesión y registros",
+        "Evidencias de proceso (foto/video/producciones)",
+        "Portafolios por grupo",
+        "Encuestas inicial/intermedia/final",
+        "Indicadores: asistencia, participación, progresión por área"
+      ],
+      "reportes": [
+        "Informe mensual (cobertura, avances, hallazgos, acciones)",
+        "Informe final de cierre (logros, métricas, recomendaciones)"
+      ],
+      "supervision_bimensual": "Visitas y actas con líderes; checklist de calidad; plan de mejora; verificación en siguiente visita."
+    }
+  },
+  "equipo": {
+    "docentes": [
+      {
+        "id": "P01",
+        "nombre": "Danzas A",
+        "area": "Danza",
+        "horas_sem": 30,
+        "activo": true
+      },
+      {
+        "id": "P02",
+        "nombre": "Danzas B",
+        "area": "Danza",
+        "horas_sem": 30,
+        "activo": true
+      },
+      {
+        "id": "P03",
+        "nombre": "Dibujo A",
+        "area": "Dibujo",
+        "horas_sem": 28,
+        "activo": true
+      },
+      {
+        "id": "P04",
+        "nombre": "Dibujo B",
+        "area": "Dibujo",
+        "horas_sem": 30,
+        "activo": true
+      },
+      {
+        "id": "P05",
+        "nombre": "Teatro A",
+        "area": "Teatro",
+        "horas_sem": 20,
+        "activo": true
+      },
+      {
+        "id": "P06",
+        "nombre": "Teatro B",
+        "area": "Teatro",
+        "horas_sem": 24,
+        "activo": true
+      },
+      {
+        "id": "P07",
+        "nombre": "Dibujo C",
+        "area": "Dibujo",
+        "horas_sem": 2,
+        "activo": true
+      },
+      {
+        "id": "P08",
+        "nombre": "Cheerleading",
+        "area": "Porras",
+        "horas_sem": 4.5,
+        "activo": true
+      }
+    ],
+    "operativos": [
+      {
+        "id": "A01",
+        "nombre": "Coordinación administrativa",
+        "rol": "Coordinación administrativa",
+        "horas_sem": 44,
+        "activo": true
+      },
+      {
+        "id": "A02",
+        "nombre": "Coordinación académica",
+        "rol": "Coordinación académica",
+        "horas_sem": 44,
+        "activo": true
+      },
+      {
+        "id": "A03",
+        "nombre": "Atención y asesoría",
+        "rol": "Atención y asesoría",
+        "horas_sem": 44,
+        "activo": true
+      },
+      {
+        "id": "A04",
+        "nombre": "Supervisión y control de calidad",
+        "rol": "Supervisión bimensual / Calidad",
+        "horas_sem": 44,
+        "activo": true
+      }
+    ]
+
+  },
+  "finanzas": {
+    "tarifa_mensual": 30308943,
+    "moneda": "COP",
+    "meses": 9,
+    "total_estimado": 272780487,
+    "explicacion": [
+      "Tarifa mensual global: estabilidad presupuestal, continuidad pedagógica y reconocimiento del trabajo complementario.",
+      "El costo mensual no varía por fluctuaciones de calendario (semanas/días adicionales); se sostiene la operación y la calidad."
+    ],
+    "cronograma_pago": {
+      "periodicidad": "Mensual",
+      "fecha_limite_dia": 25,
+      "soporte": "Cada pago se acompaña de informe mensual de avance (cobertura, evidencias, hallazgos y acciones)."
+    }
+  },
+  "evidencias": {
+    "videos": [
+      {
+        "titulo": "Salón de estimulación artística",
+        "url": "https://youtu.be/AjubTKNRwa4"
+      },
+      {
+        "titulo": "Salones de artes plásticas",
+        "url": "https://youtu.be/6lbHym83iX4"
+      },
+      {
+        "titulo": "Salones de danza",
+        "url": "https://youtu.be/IZpEU2wZyhM"
+      },
+      {
+        "titulo": "Salones de música",
+        "url": "https://youtu.be/0cahOp_t6zE"
+      }
+    ],
+    "nota": "En esta versión se listan videos institucionales. Se pueden añadir fotos, reels o links por área y por centro."
+  },
+  "anexos": {
+    "tsv_horario_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSJEzW4KRUBjn22NGjJf8r162Hg7ZMYGri6xnX6dZcSRkCgbKxHrnwoe8eZRCPE_4-iyjnZ6JRMa58A/pub?gid=214963294&single=true&output=tsv"
+  },
+  "aplicativos": [
+    {
+      "nombre": "Calendario Kiwa 2026",
+      "link": "https://alekcaballero20.github.io/calendariokiwa//",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Informes de gestión y tableros de control",
+      "link": "https://musicala.github.io/menuinformesytableros/",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Registro de puntualidad",
+      "link": "https://musicala.github.io/registropuntualidad/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Informe de asistencia",
+      "link": "https://lookerstudio.google.com/reporting/46386242-adff-436e-81b3-b30b638f6d63",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Galería de imágenes",
+      "link": "https://musicala.github.io/galeriakiwa/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Perfil Equipo Kiwa",
+      "link": "https://musicala.github.io/perfilesmusicala//",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Documentos Administrativos",
+      "link": "https://musicala.github.io/documentosadminfsa/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Documentos Académicos",
+      "link": "https://musicalaescuela.github.io/documentosKiwa2025/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Protocolos",
+      "link": "https://musicala.github.io/protocolopuntualidad/",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Horario General",
+      "link": "https://alekcaballero20.github.io/horariokiwamusicala/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Betania",
+      "link": "https://musicala.github.io/horariobetania/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Arroyo",
+      "link": "https://musicala.github.io/horarioarroyo/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Jerusalén",
+      "link": "https://musicala.github.io/horariojerusalen/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Santo Domingo",
+      "link": "https://musicala.github.io/horariosantodomingo/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Lucero",
+      "link": "https://musicala.github.io/horariolucero/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Padre Misericordioso",
+      "link": "https://musicala.github.io/horariopadremisericordioso/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario GMMMC",
+      "link": "https://musicala.github.io/horariogmmmc/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario San Juan de Dios",
+      "link": "https://musicala.github.io/horariosanjuandedios/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Horario Acapulco",
+      "link": "https://musicala.github.io/horarioacapulco/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Registros de clase Arroyo",
+      "link": "https://musicalaescuela.github.io/registroarroyo/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Acapulco",
+      "link": "https://musicalaescuela.github.io/registroacapulco/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Betania",
+      "link": "https://musicalaescuela.github.io/registrobetania/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Jerusalén",
+      "link": "https://musicalaescuela.github.io/registrojerusalen/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Lucero",
+      "link": "https://musicalaescuela.github.io/registrolucero/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Padre Misericordioso",
+      "link": "https://musicalaescuela.github.io/registropmisericordioso/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase Santo Domingo",
+      "link": "https://musicalaescuela.github.io/registrosantodomingo/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase San Juan de Dios",
+      "link": "https://musicalaescuela.github.io/registroSanJuandeDios/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Registros de clase GMMMC",
+      "link": "https://musicalaescuela.github.io/registroGMMMC/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Reglas y compromisos Docentes",
+      "link": "https://fsainforme.my.canva.site/reglasycompromisos",
+      "tipo": "Nueva",
+      "seccion": "👩‍🏫 Seguimiento Docente"
+    },
+    {
+      "nombre": "Capacitaciones a Docentes",
+      "link": "https://musicala.github.io/capacitacionesdocentesfsa/",
+      "tipo": "Pantalla",
+      "seccion": "👩‍🏫 Seguimiento Docente"
+    },
+    {
+      "nombre": "Diagnósticos Iniciales",
+      "link": "https://musicala.github.io/diagnosticoinicialkiwa/",
+      "tipo": "Nueva",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    },
+    {
+      "nombre": "Proyectos",
+      "link": "https://musicala.github.io/proyectosfsa/",
+      "tipo": "Pantalla",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    },
+    {
+      "nombre": "Muestras de Proceso",
+      "link": "https://musicala.github.io/muestrasdeprocesofsa/",
+      "tipo": "Pantalla",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    }
+  ],
+  "artes": [
+    {
+      "id": "danza",
+      "nombre": "Danza (Movimiento, participación y gestión emocional)",
+      "proposito": "La danza se trabaja como un lenguaje corporal que fortalece la coordinación, la autoestima, la autorregulación y el sentido de pertenencia. En contextos de vulnerabilidad, priorizamos la seguridad emocional, la participación gradual y el respeto por los ritmos individuales.",
+      "ejes": [
+        "Cuerpo seguro: calentamiento, respiración, conciencia corporal y prevención de lesiones.",
+        "Ritmo y coordinación: pulso, conteo, lateralidad, patrones motrices.",
+        "Creación colectiva: coreografías por equipos con roles rotativos (líder, creador, observador, cuidador del grupo).",
+        "Expresión emocional: el movimiento como herramienta para reconocer, canalizar y transformar emociones."
+      ],
+      "metodologias_participacion": [
+        "Entrada suave: participación desde filas, parejas o movimientos simples sin exposición obligatoria.",
+        "Opciones de rol: bailar, marcar con manos, llevar el conteo, apoyar musicalmente.",
+        "Semáforo emocional: verde (activo), amarillo (suave), rojo (observa y respira).",
+        "Cierres rituales: estiramiento + palabra de gratitud + “qué me llevo hoy”."
+      ],
+      "productos_evidencias": [
+        "Mini-muestras mensuales por grupo (videos cortos).",
+        "Bitácora de progreso (logro técnico + logro socioemocional).",
+        "Muestra final por ciclos (I–IV) adaptada a cada centro."
+      ]
+    },
+    {
+      "id": "teatro",
+      "nombre": "Teatro (Comunicación, confianza y reparación)",
+      "proposito": "El teatro fortalece la comunicación, la imaginación, el trabajo en equipo y las habilidades socioemocionales. Para NNA en contextos difíciles, el teatro funciona como un espacio seguro para ensayar la confianza, el error, la reparación y la convivencia.",
+      "ejes": [
+        "Juego dramático: reglas claras, turnos, escucha activa.",
+        "Voz y cuerpo: presencia escénica, límites y expresión saludable.",
+        "Narrativa con sentido: historias del territorio, metáforas de cuidado y resiliencia.",
+        "Convivencia: acuerdos grupales y estrategias restaurativas."
+      ],
+      "metodologias_participacion": [
+        "Improvisación de bajo riesgo: participar desde gestos, sonidos, narrador colectivo.",
+        "Escenas en capas: primero grupo completo, luego subgrupos, luego voluntarios.",
+        "Contrato de seguridad: nadie se burla, nadie obliga, todo se puede pausar.",
+        "Técnicas restaurativas: “yo siento / yo necesito” para resolver conflictos."
+      ],
+      "productos_evidencias": [
+        "Escenas cortas por ciclo (grabación o muestra abierta).",
+        "Guiones colectivos (texto + dibujo de escena).",
+        "Muestra final tipo “teatro collage” para participación inclusiva."
+      ]
+    },
+    {
+      "id": "dibujo",
+      "nombre": "Dibujo y Artes Visuales (Calma, identidad y expresión simbólica)",
+      "proposito": "Las artes visuales permiten desarrollar técnica y creatividad, y funcionan como herramienta de calma, concentración y expresión simbólica. Son especialmente valiosas para NNA que necesitan espacios de regulación emocional y construcción de identidad.",
+      "ejes": [
+        "Técnica base: línea, forma, sombreado, textura.",
+        "Color y emoción: paletas emocionales, contraste, composición.",
+        "Proyectos con sentido: murales, ilustraciones, afiches comunitarios.",
+        "Cultura y territorio: símbolos del barrio, sueños y referentes positivos."
+      ],
+      "metodologias_participacion": [
+        "Elección guiada: 3 opciones de actividad para dar control y reducir resistencia.",
+        "Trabajo por estaciones: rotaciones cortas para mantener concentración.",
+        "Ritual de inicio: “trazo de aterrizaje” + respiración consciente.",
+        "Cierre amable: mini-galería, feedback con “me gustó / me pregunto”."
+      ],
+      "productos_evidencias": [
+        "Portafolio por estudiante (fotos del proceso).",
+        "Mural o exposición por centro.",
+        "Muestra final tipo galería comunitaria."
+      ]
+    }
+  ],
+  "periodo": "2026-03-02 → 2026-11-28",
+  "aplicativos_intro": "Musicala implementa un ecosistema de aplicativos digitales desarrollados específicamente para el proyecto Casas Kiwa, garantizando seguimiento en tiempo real, evidencias pedagógicas, reportes mensuales, organización documental y trazabilidad por centro."
+}
