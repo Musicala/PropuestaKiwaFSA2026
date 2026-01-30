@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Propuesta Casas Kiwa 2026 · Musicala</title>
+  <link rel="stylesheet" href="./styles.css"/>
+  <meta name="color-scheme" content="light"/>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">M</div>
+      <div class="brandText">
+        <div class="title">Propuesta Casas Kiwa 2026</div>
+        <div class="subtitle">Musicala · Fundación San Antonio</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn ghost" id="btnDownloadJson" title="Descargar propuesta.json">Descargar JSON</button>
+      <button class="btn ghost" id="btnPrint" title="Imprimir / Guardar como PDF">Imprimir / PDF</button>
+      <button class="btn" id="btnOpenEvidencias" title="Ver evidencias">Evidencias</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Navegación">
+      <div class="navHead">
+        <div class="pill" id="pillStatus">Cargando…</div>
+      </div>
+
+      <nav class="nav">
+        <button class="navItem active" data-view="resumen">
+          <span class="nav-ico">🧾</span><span class="nav-txt">Resumen</span>
+        </button>
+
+        <button class="navItem" data-view="cobertura">
+          <span class="nav-ico">🗺️</span><span class="nav-txt">Cobertura</span>
+        </button>
+
+        <button class="navItem" data-view="artes">
+          <span class="nav-ico">🎭</span><span class="nav-txt">Artes</span>
+        </button>
+
+        <button class="navItem" data-view="aplicativos">
+          <span class="nav-ico">🧩</span><span class="nav-txt">Aplicativos</span>
+        </button>
+
+        <button class="navItem" data-view="metodologia">
+          <span class="nav-ico">🧠</span><span class="nav-txt">Metodología</span>
+        </button>
+
+        <button class="navItem" data-view="horas">
+          <span class="nav-ico">🗓️</span><span class="nav-txt">Horas & Cronograma</span>
+        </button>
+
+        <button class="navItem" data-view="equipo">
+          <span class="nav-ico">👥</span><span class="nav-txt">Equipo</span>
+        </button>
+
+        <button class="navItem" data-view="finanzas">
+          <span class="nav-ico">💰</span><span class="nav-txt">Finanzas</span>
+        </button>
+
+        <button class="navItem" data-view="monitoreo">
+          <span class="nav-ico">📈</span><span class="nav-txt">Monitoreo</span>
+        </button>
+
+        <button class="navItem" data-view="anexos">
+          <span class="nav-ico">📎</span><span class="nav-txt">Anexos (TSV)</span>
+        </button>
+      </nav>
+
+      <div class="sidebarFoot">
+        <div class="mini">
+          <div class="miniK">Periodo</div>
+          <div class="miniV" id="miniPeriodo">—</div>
+        </div>
+        <div class="mini">
+          <div class="miniK">Áreas</div>
+          <div class="miniV" id="miniAreas">—</div>
+        </div>
+        <div class="mini">
+          <div class="miniK">Centros</div>
+          <div class="miniV" id="miniCentros">—</div>
+        </div>
+      </div>
+    </aside>
+
+    <main id="main" class="main">
+      <section class="hero">
+        <div>
+          <h1 id="h1Titulo">Cargando propuesta…</h1>
+          <p class="lead" id="pSubtitulo">Un segundo, humano. Estamos armando el show.</p>
+        </div>
+
+        <div class="kpis" id="kpis"></div>
+      </section>
+
+      <section class="card" id="view"></section>
+
+      <footer class="footer">
+        <div>Musicala · Propuesta interactiva (light) · Hecha para leer y decidir, no para sufrir.</div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div class="toastWrap" id="toastWrap" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Modal Evidencias -->
+  <dialog class="modal" id="modalEvidencias">
+    <form method="dialog" class="modalBox">
+      <div class="modalHead">
+        <div>
+          <div class="modalTitle">Evidencias</div>
+          <div class="modalSub">Videos y enlaces de apoyo</div>
+        </div>
+        <button class="btn ghost" value="cancel" aria-label="Cerrar">Cerrar</button>
+      </div>
+      <div class="modalBody" id="evidenciasList"></div>
+    </form>
+  </dialog>
+
+  <!-- Modal TSV -->
+  <dialog class="modal" id="modalTSV">
+    <form method="dialog" class="modalBox wide">
+      <div class="modalHead">
+        <div>
+          <div class="modalTitle">Anexo: Horario (TSV)</div>
+          <div class="modalSub">Vista rápida del TSV publicado</div>
+        </div>
+        <button class="btn ghost" value="cancel" aria-label="Cerrar">Cerrar</button>
+      </div>
+      <div class="modalBody">
+        <div class="tsvTools">
+          <button class="btn" id="btnLoadTSV" type="button">Cargar TSV</button>
+          <input class="input" id="tsvQuery" placeholder="Filtrar… (no sensible a tildes)" />
+          <div class="hint" id="tsvHint">Se cargará desde el link público.</div>
+        </div>
+        <div class="tableWrap">
+          <table class="table" id="tsvTable"></table>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
